@@ -30,7 +30,33 @@
                         <th>Acciones</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
+                <tbody class="tbody1"></tbody>
+            </table>
+        </article>
+    </section>
+    <section class="crud2">
+        <article>
+            <h2 class="crud2-title">Agregar Dioses</h2>
+            <form class="crud2-form">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <br>
+                <input type="text" name="elemento" placeholder="Elemento" required>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+        <article>
+            <h2>Ver Dioses</h2>
+            <table class="crud2-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Elemento</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody2"></tbody>
             </table>
         </article>
     </section>
@@ -44,6 +70,16 @@
             </td>
         </tr>
     </template>
-    <script src="./js/santos.js"></script>
+    <template id="crud2-template">
+        <tr>
+            <td class="name2"></td>
+            <td class="element2"></td>
+            <td>
+                <button class="edit2">Editar</button>
+                <button class="delete2">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+    <script src="./js/santos.js "></script>
 </body>
 </html>
