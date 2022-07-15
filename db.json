@@ -18,12 +18,7 @@
     {
       "nombre": "Mu",
       "constelacion": "Aries",
-      "id": 6
-    },
-    {
-      "nombre": "Joaco",
-      "constelacion": "Puteada",
-      "id": 7
+      "id": 4
     }
   ],
   "dioses": [
@@ -51,11 +46,6 @@
       "nombre": "Atenea",
       "de": "Tierra",
       "id": 5
-    },
-    {
-      "nombre": "Mati",
-      "de": "Css",
-      "id": 6
     }
   ]
 }
