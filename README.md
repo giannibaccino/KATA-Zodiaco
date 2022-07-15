@@ -1,4 +1,4 @@
-#Fake API
+# Fake API
 
 json-server --watch .\db.json incio el server en puerto default
 
