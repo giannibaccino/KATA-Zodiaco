@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD API REST FETCH</title>
+    <title>HEAVEN</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <h1>CRUD API REST FETCH</h1>
-    <section class="crud">
-        <article>
-            <h2 class="crud-title">Agregar Santos</h2>
-            <form class="crud-form">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <br>
-                <input type="text" name="constelacion" placeholder="Constelacion" required>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="hidden" name="id">
-            </form>
-        </article>
-        <article>
-            <h2>Ver Santos</h2>
-            <table class="crud-table">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Constelacion</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody class="tbody1"></tbody>
-            </table>
-        </article>
-    </section>
-    <section class="crud2">
-        <article>
-            <h2 class="crud2-title">Agregar Dioses</h2>
-            <form class="crud2-form">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <br>
-                <input type="text" name="elemento" placeholder="Elemento" required>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="hidden" name="id">
-            </form>
-        </article>
-        <article>
-            <h2>Ver Dioses</h2>
-            <table class="crud2-table">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Elemento</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody class="tbody2"></tbody>
-            </table>
-        </article>
-    </section>
-    <template id="crud-template">
-        <tr>
-            <td class="name"></td>
-            <td class="constellation"></td>
-            <td>
-                <button class="edit">Editar</button>
-                <button class="delete">Eliminar</button>
-            </td>
-        </tr>
-    </template>
-    <template id="crud2-template">
-        <tr>
-            <td class="name2"></td>
-            <td class="element2"></td>
-            <td>
-                <button class="edit2">Editar</button>
-                <button class="delete2">Eliminar</button>
-            </td>
-        </tr>
-    </template>
-    <script type="module" src="./js/santos.js"></script>
-    <script type="module" src="./js/dioses.js"></script>
-    
+    <h1 class="titular">HEAVEN</h1>
+    <div class="container">
+        <section class="crud">
+            <article>
+                <h2 class="crud-title">Agregar Santos</h2>
+                <form class="crud-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <br>
+                    <input type="text" name="constelacion" placeholder="Constelacion" required>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="hidden" name="id">
+                </form>
+            </article>
+            <article>
+                <h2>Ver Santos</h2>
+                <table class="crud-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Constelacion</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody1"></tbody>
+                </table>
+            </article>
+        </section>
+        <section class="crud2">
+            <article>
+                <h2 class="crud2-title">Agregar Dioses</h2>
+                <form class="crud2-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <br>
+                    <input type="text" name="elemento" placeholder="Elemento" required>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="hidden" name="id">
+                </form>
+            </article>
+            <article>
+                <h2>Ver Dioses</h2>
+                <table class="crud2-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Elemento</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody2"></tbody>
+                </table>
+            </article>
+        </section>
+        <template id="crud-template">
+            <tr>
+                <td class="name"></td>
+                <td class="constellation"></td>
+                <td>
+                    <button class="edit">Editar</button>
+                    <button class="delete">Eliminar</button>
+                </td>
+            </tr>
+        </template>
+        <template id="crud2-template">
+            <tr>
+                <td class="name2"></td>
+                <td class="element2"></td>
+                <td>
+                    <button class="edit2">Editar</button>
+                    <button class="delete2">Eliminar</button>
+                </td>
+            </tr>
+        </template>
+        <script type="module" src="./js/santos.js"></script>
+        <script type="module" src="./js/dioses.js"></script>
+    </div>
 </body>
+
 </html>

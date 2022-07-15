@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(-900deg, rgb(44, 44, 44), rgba(163, 57, 250, 0.8)),
+        url(https://fondosmil.com/fondo/53642.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.titular{
+    color: white;
+    text-shadow: 0px 0px 20px;
+    font-size: 4rem;
+}
+
+.container{
+    padding: 5px; 
+    margin: 5px;   
+    width: 800px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.crud{
+    padding: 15px;
+    margin: 15px;
+    background: linear-gradient(-900deg, rgba(255, 255, 255), rgba(78, 255, 240, 0.8));
+    border-radius: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+
+.crud2{
+    padding: 15px;
+    margin: 15px;
+    background: linear-gradient(-900deg, rgb(255, 255, 255), rgba(216, 44, 250, 0.8));
+    border-radius: 10%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+table,td,th{
+    border: 1px rgba(0, 0, 0, 0.11) solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+th{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+}
+
+.edit,.delete{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-900deg, rgb(255, 255, 255), rgba(118, 245, 186, 0.8));
+    font-size: medium;
+}
+
+.edit2,.delete2{
+    color: rgb(0, 0, 0);
+    background: linear-gradient(-900deg, rgb(255, 255, 255), rgba(118, 245, 186, 0.8));
+    font-size: medium;
+}
+
+.delete:hover,.delete2:hover{
+    background: red;
+    color: white;
+}
+
+.edit:hover,.edit2:hover{
+    background: rgb(60, 255, 93);
+}
+
+input[type = text]{
+    background: rgba(255, 255, 255, 0.301);
+    margin: 5px;
+    font-size: medium;
+}
+
+input[type = text]:hover{
+    background: rgb(236, 250, 116);
+}
+
+input[type = text]:focus{
+    background: rgb(248, 255, 187);
+}
+
+input[type = submit]{
+    margin: 5px;
+    background: linear-gradient(-900deg, rgb(255, 255, 255), rgba(118, 245, 186, 0.8));
+    font-size: medium;
+}
+
+input[type = submit]:hover{
+    background: rgb(60, 255, 93);
+}
+h2{
+    margin-left: 5px;
+}
