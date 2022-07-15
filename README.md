@@ -10,3 +10,6 @@ Consiste en dos listas de santos y de dioses miodificables, haciendo uso de una 
 ### Comandos para iniciar el seridor json en el puerto 5555:
 
 - json-server -w -p 5555 .\db.json
+
+### Video explicativo
+- https://www.youtube.com/watch?v=9byS7WQXyMw
